@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="454">
+ <tileset firstgid="1" source="Yellow.tsx"/>
+ <tileset firstgid="17" source="Pixel_Adventure.tsx"/>
+ <tileset firstgid="259" source="Blue.tsx"/>
+ <tileset firstgid="275" source="Gray.tsx"/>
+ <tileset firstgid="291" source="Text (White)2 (8x10).tsx"/>
+ <layer id="1" name="Tile Layer 1" width="40" height="23">
+  <data encoding="csv">
+40,40,40,40,40,40,40,40,40,40,40,40,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,40,40,40,40,40,40,40,40,40,40,
+40,40,40,40,40,40,40,40,40,40,40,40,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,40,40,40,40,40,40,40,40,40,40,
+40,40,40,40,40,40,40,40,40,40,40,40,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,40,40,40,40,40,40,40,40,40,40,
+40,40,40,227,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,156,227,40,40,40,
+40,40,40,135,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,133,40,40,40,
+40,40,40,135,279,280,281,282,279,280,281,282,279,280,281,282,279,280,281,282,279,280,281,282,279,280,281,282,279,280,281,282,279,280,281,282,133,40,40,40,
+40,40,40,135,283,284,285,286,283,284,285,286,283,284,285,286,283,284,285,286,283,284,285,286,283,284,285,286,283,284,285,286,283,284,285,286,133,40,40,40,
+40,40,40,135,287,288,289,290,287,288,289,290,287,288,289,290,287,288,289,290,287,288,289,290,287,288,289,290,287,288,289,290,287,288,289,290,133,40,40,40,
+40,40,40,135,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,133,40,40,40,
+40,40,40,135,279,280,281,282,279,280,139,282,279,280,29,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,31,133,40,40,40,
+40,40,40,135,283,284,285,286,283,284,285,286,283,284,285,286,283,284,285,286,283,284,285,286,283,284,285,286,283,284,285,286,283,284,285,286,133,40,40,40,
+40,40,40,135,287,288,289,290,287,288,289,290,287,288,289,290,287,288,289,290,287,288,289,290,287,288,289,290,287,288,289,290,287,288,289,290,133,40,40,40,
+40,40,40,135,275,276,277,278,275,139,277,278,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,133,40,40,40,
+40,40,40,135,139,280,281,282,279,280,281,282,279,139,281,282,279,280,281,282,279,280,281,282,279,280,281,282,279,280,281,282,279,280,281,282,133,40,40,40,
+40,40,40,135,283,284,285,286,283,284,285,286,283,284,285,286,283,139,285,286,283,284,285,286,283,139,285,286,283,284,285,286,283,205,206,207,133,40,40,40,
+40,40,40,135,287,288,289,290,287,288,289,290,287,288,289,290,287,288,289,290,287,288,289,290,287,288,289,290,287,288,289,290,287,288,289,290,133,40,40,40,
+40,40,40,135,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,275,276,277,278,133,40,40,40,
+40,40,40,135,279,280,281,282,279,280,281,282,279,280,281,282,279,280,281,282,279,280,281,282,279,280,281,282,279,280,281,282,279,280,281,282,133,40,40,40,
+40,40,40,135,111,112,112,113,283,284,285,286,283,284,285,111,112,113,285,286,283,284,285,286,283,111,112,113,283,284,285,286,283,111,112,113,133,40,40,40,
+40,40,40,227,155,156,156,157,287,288,289,290,287,288,289,155,156,157,289,290,287,288,289,290,287,155,156,157,287,288,289,290,287,155,156,157,227,40,40,40,
+40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,
+40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,
+40,40,40,40,40,40,40,0,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40
+</data>
+ </layer>
+ <objectgroup id="6" name="Traps">
+  <object id="72" type="Chain" x="384" y="63" width="5" height="7.5"/>
+  <object id="82" type="Chain" x="384" y="73" width="5" height="7.5"/>
+  <object id="83" type="Chain" x="384" y="88" width="5" height="7.5"/>
+  <object id="84" type="Chain" x="384" y="68" width="5" height="7.5"/>
+  <object id="85" type="Chain" x="384" y="78" width="5" height="7.5"/>
+  <object id="86" type="Chain" x="384" y="83" width="5" height="7.5"/>
+  <object id="87" type="Chain" x="384" y="103" width="5" height="7.5"/>
+  <object id="88" type="Chain" x="384" y="98" width="5" height="7.5"/>
+  <object id="89" type="Chain" x="384" y="93" width="5" height="7.5"/>
+  <object id="90" type="Chain" x="384" y="123" width="5" height="7.5"/>
+  <object id="91" type="Chain" x="384" y="118" width="5" height="7.5"/>
+  <object id="92" type="Chain" x="384" y="113" width="5" height="7.5"/>
+  <object id="93" type="Chain" x="384" y="108" width="5" height="7.5"/>
+  <object id="94" type="Chain" x="384" y="128" width="5" height="7.5"/>
+  <object id="95" type="Chain" x="384" y="133" width="5" height="7.5"/>
+  <object id="96" type="Chain" x="384" y="138" width="5" height="7.5"/>
+  <object id="241" type="Chain" x="472" y="62.75" width="5" height="7.5"/>
+  <object id="242" type="Chain" x="472" y="72.75" width="5" height="7.5"/>
+  <object id="243" type="Chain" x="472" y="87.75" width="5" height="7.5"/>
+  <object id="244" type="Chain" x="472" y="67.75" width="5" height="7.5"/>
+  <object id="245" type="Chain" x="472" y="77.75" width="5" height="7.5"/>
+  <object id="246" type="Chain" x="472" y="82.75" width="5" height="7.5"/>
+  <object id="247" type="Chain" x="472" y="102.75" width="5" height="7.5"/>
+  <object id="248" type="Chain" x="472" y="97.75" width="5" height="7.5"/>
+  <object id="249" type="Chain" x="472" y="92.75" width="5" height="7.5"/>
+  <object id="250" type="Chain" x="472" y="122.75" width="5" height="7.5"/>
+  <object id="251" type="Chain" x="472" y="117.75" width="5" height="7.5"/>
+  <object id="252" type="Chain" x="472" y="112.75" width="5" height="7.5"/>
+  <object id="253" type="Chain" x="472" y="107.75" width="5" height="7.5"/>
+  <object id="254" type="Chain" x="472" y="127.75" width="5" height="7.5"/>
+  <object id="255" type="Chain" x="472" y="132.75" width="5" height="7.5"/>
+  <object id="256" type="Chain" x="472" y="137.75" width="5" height="7.5"/>
+  <object id="417" type="Chain" x="296" y="63.25" width="5" height="7.5"/>
+  <object id="418" type="Chain" x="296" y="73.25" width="5" height="7.5"/>
+  <object id="419" type="Chain" x="296" y="88.25" width="5" height="7.5"/>
+  <object id="420" type="Chain" x="296" y="68.25" width="5" height="7.5"/>
+  <object id="421" type="Chain" x="296" y="78.25" width="5" height="7.5"/>
+  <object id="422" type="Chain" x="296" y="83.25" width="5" height="7.5"/>
+  <object id="423" type="Chain" x="296" y="103.25" width="5" height="7.5"/>
+  <object id="424" type="Chain" x="296" y="98.25" width="5" height="7.5"/>
+  <object id="425" type="Chain" x="296" y="93.25" width="5" height="7.5"/>
+  <object id="426" type="Chain" x="296" y="123.25" width="5" height="7.5"/>
+  <object id="427" type="Chain" x="296" y="118.25" width="5" height="7.5"/>
+  <object id="428" type="Chain" x="296" y="113.25" width="5" height="7.5"/>
+  <object id="429" type="Chain" x="296" y="108.25" width="5" height="7.5"/>
+  <object id="430" type="Chain" x="296" y="128.25" width="5" height="7.5"/>
+  <object id="431" type="Chain" x="296" y="133.25" width="5" height="7.5"/>
+  <object id="432" type="Chain" x="296" y="138.25" width="5" height="7.5"/>
+  <object id="67" type="Saw" x="281.5" y="50">
+   <properties>
+    <property name="Target" type="object" value="68"/>
+   </properties>
+  </object>
+  <object id="69" type="Saw" x="370" y="50">
+   <properties>
+    <property name="Target" type="object" value="68"/>
+   </properties>
+  </object>
+  <object id="70" type="Saw" x="458.5" y="50">
+   <properties>
+    <property name="Target" type="object" value="68"/>
+   </properties>
+  </object>
+  <object id="68" x="281.5" y="118.5">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="Ground">
+  <object id="1" x="63.5" y="286.75" width="65" height="31"/>
+  <object id="3" x="241" y="288.5" width="46" height="30"/>
+  <object id="10" x="400.474" y="288.605" width="46.7057" height="29.4661" rotation="359.83"/>
+  <object id="15" x="529.5" y="288.75" width="46.5" height="29"/>
+  <object id="26" x="51" y="50" width="11.5" height="263.5"/>
+  <object id="27" x="60.6667" y="50" width="523.333" height="12.6667"/>
+  <object id="28" x="577.333" y="55" width="14" height="270"/>
+  <object id="34" type="JumpPlatform" x="528.667" y="224.288" width="46.6667" height="14.303"/>
+  <object id="44" x="400.545" y="224.364" width="15.0909" height="15.0909"/>
+  <object id="30" type="Fruit" x="272.045" y="223.576" width="16" height="16"/>
+  <object id="46" type="Fruit" x="208.182" y="207.727" width="16" height="16"/>
+  <object id="47" type="Fruit" x="63.8636" y="207.136" width="16" height="16"/>
+  <object id="52" type="Fruit" x="160.5" y="144.25" width="16" height="16"/>
+  <object id="53" x="224.75" y="143.75" width="352" height="15"/>
+  <object id="56" type="Fruit" x="145.5" y="191.5" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup id="5" name="DeadEnd">
+  <object id="20" x="131" y="388" width="415.5" height="3"/>
+ </objectgroup>
+ <objectgroup id="3" name="Spawn">
+  <object id="4" type="Player" x="98.25" y="230.917" width="22" height="24"/>
+  <object id="50" type="Fruit" x="57" y="183" width="16" height="16"/>
+  <object id="51" type="Fruit" x="407" y="258" width="16" height="16"/>
+  <object id="435" type="Finish" x="520" y="80" width="27.5" height="48"/>
+  <object id="436" type="Fruit" x="247" y="257" width="16" height="16"/>
+  <object id="437" type="Fruit" x="208" y="272.5" width="16" height="16"/>
+  <object id="438" type="Fruit" x="176" y="272.5" width="16" height="16"/>
+  <object id="439" type="Fruit" x="144" y="272.5" width="16" height="16"/>
+  <object id="440" type="Fruit" x="161" y="240" width="16" height="16"/>
+  <object id="441" type="Fruit" x="192" y="240" width="16" height="16"/>
+  <object id="442" type="Fruit" x="306" y="272.5" width="16" height="16"/>
+  <object id="443" type="Fruit" x="338" y="272.5" width="16" height="16"/>
+  <object id="444" type="Fruit" x="370" y="272.5" width="16" height="16"/>
+  <object id="445" type="Fruit" x="352" y="240" width="16" height="16"/>
+  <object id="446" type="Fruit" x="320" y="240" width="16" height="16"/>
+  <object id="447" type="Fruit" x="288" y="240" width="16" height="16"/>
+  <object id="448" type="Fruit" x="128" y="240" width="16" height="16"/>
+  <object id="449" type="LifeCharacter" x="530" y="2"/>
+  <object id="452" type="Restart" x="600" y="60"/>
+  <object id="453" type="Volume" x="600" y="85"/>
+ </objectgroup>
+</map>
