@@ -25,7 +25,7 @@ class PixelAdventure extends FlameGame
   FutureOr<void> onLoad() async {
     await images.loadAllImages();
     await AudioManager.init();
-    loadLevel('GameOver.tmx'); // load level
+    loadLevel('Start.tmx'); // load level
     // setting camera
     cam = CameraComponent.withFixedResolution(
         world: currentLevel!, width: 640, height: 360);
