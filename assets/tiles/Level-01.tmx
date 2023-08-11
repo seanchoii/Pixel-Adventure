@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="161">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="163">
  <properties>
   <property name="nextLevel" value="Level-02.tmx"/>
  </properties>
@@ -80,5 +80,7 @@
   <object id="158" type="LifeCharacter" x="530" y="2"/>
   <object id="159" type="Restart" x="600" y="60"/>
   <object id="160" type="Volume" x="600" y="85"/>
+  <object id="161" type="Score" x="7.5" y="10"/>
+  <object id="162" type="Lives" x="578" y="16"/>
  </objectgroup>
 </map>

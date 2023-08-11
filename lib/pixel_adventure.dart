@@ -7,9 +7,6 @@ import 'package:flame/input.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:pixel_adventure/actors/utils/player_stats.dart';
-import 'package:pixel_adventure/hud/gameoverText.dart';
-import 'package:pixel_adventure/hud/selectCharacterText.dart';
-import 'package:pixel_adventure/hud/winText.dart';
 import 'package:pixel_adventure/level/level.dart';
 
 import 'actors/utils/audiomanager.dart';
@@ -24,20 +21,17 @@ class PixelAdventure extends FlameGame
   CameraComponent? cam; // camera
   String playerName = 'Mask Dude';
   final playerStats = PlayerStats(); // player stats
-  final gameOverText = GameOverText();
-  final selectCharacterText = SelectCharacterText();
-  final winText = WinText();
   @override
   FutureOr<void> onLoad() async {
     await images.loadAllImages();
     await AudioManager.init();
-    add(selectCharacterText);
-    loadLevel('Start.tmx'); // load level
+    loadLevel('GameOver.tmx'); // load level
     // setting camera
     cam = CameraComponent.withFixedResolution(
         world: currentLevel!, width: 640, height: 360);
     cam!.viewfinder.anchor = Anchor.topLeft;
     await add(cam!);
+
     return super.onLoad();
   }
 

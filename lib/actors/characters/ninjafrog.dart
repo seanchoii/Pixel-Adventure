@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flame/components.dart';
 import 'package:flame/events.dart';
 import 'package:pixel_adventure/actors/utils/audiomanager.dart';
-import 'package:pixel_adventure/hud/hud.dart';
 import 'package:pixel_adventure/pixel_adventure.dart';
 
 enum Frog { nfRun }
@@ -38,8 +37,6 @@ class NinjaFrog extends SpriteAnimationGroupComponent
   void onTapDown(TapDownEvent event) {
     gameRef.playerName = 'Ninja Frog'; // character selected
     gameRef.loadLevel('Level-01.tmx'); // level 1 start
-    gameRef.add(Hud()); // add hud
-    gameRef.selectCharacterText.removeFromParent();
     AudioManager.playBgm('bgm.mp3');
 
     super.onTapDown(event);

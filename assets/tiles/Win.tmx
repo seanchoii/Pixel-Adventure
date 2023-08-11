@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="3">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="11">
  <tileset firstgid="1" source="Text (White)2 (8x10).tsx"/>
  <tileset firstgid="51" source="Melon.tsx"/>
  <tileset firstgid="119" source="Orange.tsx"/>
@@ -43,5 +43,10 @@
  <objectgroup id="2" name="Spawn">
   <object id="1" type="Restart" x="352.333" y="240"/>
   <object id="2" type="LifeCharacter" x="530" y="2"/>
+  <object id="3" type="Score" x="7.5" y="10"/>
+  <object id="4" type="Lives" x="578" y="16"/>
+  <object id="5" type="Congratulation" x="320" y="110"/>
+  <object id="8" type="YouWin" x="320" y="170.042"/>
+  <object id="10" type="Credit" x="630" y="343"/>
  </objectgroup>
 </map>

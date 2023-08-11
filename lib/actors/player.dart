@@ -73,7 +73,6 @@ class Player extends SpriteAnimationGroupComponent
       if (gameRef.playerStats.lives.value < 1) {
         Future.delayed(const Duration(milliseconds: 500), () {
           gameRef.loadLevel('GameOver.tmx'); // gameover page
-          gameRef.add(gameRef.gameOverText);
           AudioManager.stopBgm();
         });
       } else {

@@ -21,7 +21,7 @@ class Saw extends SpriteAnimationGroupComponent
     add(
       MoveToEffect(
         Vector2(spawn.x, targetPosition.y),
-        EffectController(alternate: true, infinite: true, speed: 9),
+        EffectController(alternate: true, infinite: true, speed: 90),
       ),
     );
   }

@@ -35,9 +35,6 @@ class Restart extends SpriteAnimationGroupComponent
   void onTapDown(TapDownEvent event) {
     AudioManager.stopBgm();
     gameRef.loadLevel('Start.tmx');
-    gameRef.gameOverText.removeFromParent();
-    gameRef.winText.removeFromParent();
-    gameRef.add(gameRef.selectCharacterText);
     // reset to default settings
     gameRef.playerStats.level.value = 1;
     gameRef.playerStats.lives.value = 5;

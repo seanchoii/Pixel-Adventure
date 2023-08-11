@@ -4,7 +4,6 @@ import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
 import 'package:flame/effects.dart';
 import 'package:pixel_adventure/actors/player.dart';
-import 'package:pixel_adventure/hud/hud.dart';
 import 'package:pixel_adventure/pixel_adventure.dart';
 
 import '../utils/audiomanager.dart';
@@ -74,8 +73,6 @@ class Mushroom extends SpriteAnimationGroupComponent
           Future.delayed(const Duration(milliseconds: 500), () {
             AudioManager.stopBgm();
             gameRef.loadLevel('GameOver.tmx'); // gameover page
-            gameRef.add(Hud());
-            gameRef.add(gameRef.gameOverText);
           });
         } else {
           AudioManager.playSfx('hit.wav', 0.4);

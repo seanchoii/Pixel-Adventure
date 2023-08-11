@@ -4,7 +4,6 @@ import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
 import 'package:flame/effects.dart';
 import 'package:pixel_adventure/actors/player.dart';
-import 'package:pixel_adventure/hud/hud.dart';
 import 'package:pixel_adventure/pixel_adventure.dart';
 
 // enum containng different animations of checkpoints
@@ -58,7 +57,6 @@ class CheckPoint extends SpriteAnimationGroupComponent
       add(RemoveEffect()); // remove effect
       gameRef.playerStats.level.value += 1;
       onPlayerEnter?.call(); // custom function call
-      gameRef.add(Hud()); // adding hud back to the game
     }
     super.onCollisionStart(intersectionPoints, other);
   }

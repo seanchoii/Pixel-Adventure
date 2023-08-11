@@ -1,4 +1,7 @@
 import 'dart:async';
+import 'dart:ui';
+import 'package:flame/palette.dart';
+import 'package:flutter/painting.dart';
 import 'package:flame/components.dart';
 import 'package:flame_tiled/flame_tiled.dart';
 import 'package:pixel_adventure/actors/buttons/volume.dart';
@@ -186,6 +189,111 @@ class Level extends World with HasGameRef<PixelAdventure> {
                 position: Vector2(spawn.x, spawn.y),
                 character: gameRef.playerName);
             add(lCharacter);
+            break;
+          // adding text components of the game
+          case 'Score':
+            final scoreText = TextComponent(
+                text: 'Score: ${gameRef.playerStats.score.value}',
+                position: Vector2(spawn.x, spawn.y),
+                anchor: Anchor.topLeft,
+                textRenderer: TextPaint(
+                    style: TextStyle(
+                        color: BasicPalette.white.color,
+                        fontSize: 18,
+                        fontFamily: 'TmonMonsori')));
+            add(scoreText);
+            // updating the score as the game continues
+            gameRef.playerStats.score.addListener(() {
+              scoreText.text = 'Score: ${gameRef.playerStats.score.value}';
+            });
+            break;
+          case 'Lives':
+            final livesText = TextComponent(
+                text: 'x ${gameRef.playerStats.lives.value}',
+                position: Vector2(spawn.x, spawn.y),
+                anchor: Anchor.topRight,
+                textRenderer: TextPaint(
+                    style: TextStyle(
+                        color: BasicPalette.white.color,
+                        fontSize: 10,
+                        fontFamily: 'TmonMonsori')));
+            add(livesText);
+            gameRef.playerStats.lives.addListener(() {
+              livesText.text = 'x ${gameRef.playerStats.lives.value}';
+            });
+            break;
+          // intro
+          case 'PixelAdventure':
+            final pixelAdventureText = TextComponent(
+                text: 'Pixel Adventure',
+                position: Vector2(spawn.x, spawn.y),
+                anchor: Anchor.center,
+                textRenderer: TextPaint(
+                    style: TextStyle(
+                        color: BasicPalette.white.color,
+                        fontSize: 30,
+                        fontFamily: 'TmonMonsori')));
+            add(pixelAdventureText);
+            break;
+          case 'ChooseCharacter':
+            final characterChooseText = TextComponent(
+                text: 'Choose your character!',
+                position: Vector2(spawn.x, spawn.y),
+                anchor: Anchor.bottomRight,
+                textRenderer: TextPaint(
+                    style: TextStyle(
+                        color: BasicPalette.white.color,
+                        fontSize: 12,
+                        fontFamily: 'TmonMonsori')));
+            add(characterChooseText);
+            break;
+          case 'GameOver':
+            final gameoverText = TextComponent(
+                text: 'Game Over!',
+                position: Vector2(spawn.x, spawn.y),
+                anchor: Anchor.center,
+                textRenderer: TextPaint(
+                    style: TextStyle(
+                        color: BasicPalette.white.color,
+                        fontSize: 20,
+                        fontFamily: 'TmonMonsori')));
+            add(gameoverText);
+            break;
+          case 'Credit':
+            final credit = TextComponent(
+                text: 'Made By Sean Choi',
+                position: Vector2(spawn.x, spawn.y),
+                anchor: Anchor.bottomRight,
+                textRenderer: TextPaint(
+                    style: TextStyle(
+                        color: BasicPalette.white.color,
+                        fontSize: 10,
+                        fontFamily: 'TmonMonsori')));
+            add(credit);
+            break;
+          case 'Congratulation':
+            final gamewinText = TextComponent(
+                text: 'Congratulations!',
+                position: Vector2(spawn.x, spawn.y),
+                anchor: Anchor.center,
+                textRenderer: TextPaint(
+                    style: TextStyle(
+                        color: BasicPalette.white.color,
+                        fontSize: 20,
+                        fontFamily: 'TmonMonsori')));
+            add(gamewinText);
+            break;
+          case 'YouWin':
+            final winText = TextComponent(
+                text: 'You Win!',
+                position: Vector2(spawn.x, spawn.y),
+                anchor: Anchor.center,
+                textRenderer: TextPaint(
+                    style: TextStyle(
+                        color: BasicPalette.white.color,
+                        fontSize: 20,
+                        fontFamily: 'TmonMonsori')));
+            add(winText);
             break;
           default:
         }
